@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027202423203.png" alt="image-20221027202423203" style="zoom: 50%;" />
-=======
-
 # TikTokLite
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027202423203.png" alt="image-20221027202423203" style="zoom: 50%;" />
 
-​                                                 **极简版抖音**
->>>>>>> d8dfd76ed2e0b70efd38d3e65174a7a926a88b85
-
-​                                                              **极简版抖音**
+​                                                           **极简版抖音**                                           
 
 ​                                                       [探索本项目相关文档](https://www.apifox.cn/apidoc/shared-8cc50618-0da6-4d5e-a398-76f3b8f766c5/api-18345145) 
 
