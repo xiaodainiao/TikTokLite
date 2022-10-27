@@ -170,7 +170,7 @@ docker-compose up
 
   利用grpc作为分布式框架，etcd或zookeeper作为注册中心，将五个模块分别布置到不同的服务器上，通过RPC远程调用的方式，来调用相关的模块的方法，做到分布式处理与解耦
 
-  ![image-20221027225809359](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027225809359.png)
+<img src="https://img-blog.csdnimg.cn/f8e7445378f04f8ba77772a774c2afc0.png"   >
 
 ## 线上地址
 
