@@ -1,0 +1,23 @@
+mysql:  
+  host: 192.168.1.12
+  port: 3306
+  database: TikTokLite
+  username: user
+  password: 123
+minio:
+  #minio服务主机ip，需要填具体ip
+  host: 192.168.1.12
+  port: 9000
+  accessKeyID: minioadmin
+  secretAccessKey: minioadmin
+  videobuckets: video
+  picbuckets: pic
+redis:
+  address: 192.168.1.12
+  network: tcp
+  port: 6379
+  auth: 123
+videofile: /tmp/file/video/
+logfile: /tmp/file/log/
+picfile: /tmp/file/picture/
+level: info

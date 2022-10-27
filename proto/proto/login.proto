@@ -1,0 +1,21 @@
+syntax = "proto3";
+package douyin.core;
+
+option go_package = "../pkg;message";
+
+/*
+    /douyin/user/lonin/ -用户登录接口
+    通过用户名和密码进行登录，登录成功后返回用户id和权限token
+    POST
+*/
+
+message douyin_user_login_request{
+    string username = 1;
+    string password = 2;
+}
+message douyin_user_login_response {
+    int32 status_code = 1; // 状态码，0-成功，其他值-失败
+    string status_msg = 2; // 返回状态描述​
+    int64 user_id = 3; // 用户id​
+    string token = 4; // 用户鉴权token
+}
