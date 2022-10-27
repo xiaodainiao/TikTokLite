@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027202423203.png" alt="image-20221027202423203" style="zoom: 50%;" />
+=======
+
+# TikTokLite
+<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027202423203.png" alt="image-20221027202423203" style="zoom: 50%;" />
+
+​                                                 **极简版抖音**
+>>>>>>> d8dfd76ed2e0b70efd38d3e65174a7a926a88b85
 
 ​                                                              **极简版抖音**
 
