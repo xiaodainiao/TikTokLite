@@ -1,9 +1,15 @@
 # TikTokLite
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027202423203.png" alt="image-20221027202423203" style="zoom: 50%;" />
+<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027202423203.png" alt="image-20221027202423203" style="zoom: 67%;" />
 
-​                                                           **极简版抖音**                                           
+***
 
-​                                                       [探索本项目相关文档](https://www.apifox.cn/apidoc/shared-8cc50618-0da6-4d5e-a398-76f3b8f766c5/api-18345145) 
+**极简抖音**
+
+[探索本项目相关文档](https://www.apifox.cn/apidoc/shared-8cc50618-0da6-4d5e-a398-76f3b8f766c5/api-18345145)
+
+## 荣誉展示
+
+## 上手指南
 
 ### 启动服务
 
@@ -23,7 +29,94 @@ docker-compose up
 - **minio**：对象存储
 - **ffmpeg**：获取视频封面
 
-###  目录结构
+## 技术选型
+
+<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027224045110.png" alt="image-20221027224045110" style="zoom:80%;" />
+
+## 实现功能
+
+|    功能    |                             说明                             |
+| :--------: | :----------------------------------------------------------: |
+|  基础功能  |      视频feed流、视频投稿，个人信息、用户登录、用户注册      |
+| 扩展功能一 | 视频点赞/取消点赞，点赞列表；用户评论/删除评论，视频评论列表 |
+| 扩展功能二 |            用户关注/取关；用户关注列表、粉丝列表             |
+
+
+## 目录结构
+
+```c++
+.
+├── common
+│   ├── AuthMiddleware.go
+│   ├── cache.go
+│   └── dbInit.go
+├── config
+│   └── config.go
+├── config.yaml
+├── controller
+│   ├── commentController.go
+│   ├── favortiteController.go
+│   ├── feedController.go
+│   ├── publishController.go
+│   ├── relationController.go
+│   └── userController.go
+├── docker-compose.yml
+├── Dockerfile
+├── go.mod
+├── go.sum
+├── log
+│   └── log.go
+├── main.go
+├── minioStore
+│   └── minioClient.go
+├── proto
+│   ├── pkg
+│   │   ├── comment.pb.go
+│   │   ├── favorite.pb.go
+│   │   ├── feed.pb.go
+│   │   ├── login.pb.go
+│   │   ├── publish.pb.go
+│   │   ├── register.pb.go
+│   │   ├── relation.pb.go
+│   │   └── user.pb.go
+│   └── proto
+│       ├── comment.proto
+│       ├── favorite.proto
+│       ├── feed.proto
+│       ├── login.proto
+│       ├── publish.proto
+│       ├── register.proto
+│       ├── relation.proto
+│       └── user.proto
+├── README.md
+├── redis.conf
+├── repository
+│   ├── commentModel.go
+│   ├── favoriteModel.go
+│   ├── relationModel.go
+│   ├── userModel.go
+│   └── videoModel.go
+├── response
+│   └── response.go
+├── routes
+│   ├── comment.go
+│   ├── favorite.go
+│   ├── publish.go
+│   ├── relation.go
+│   ├── routes.go
+│   └── user.go
+├── service
+│   ├── commentService.go
+│   ├── favoriteService.go
+│   ├── feedService.go
+│   ├── publishService.go
+│   ├── relationService.go
+│   └── userService.go
+├── TikTokLite.sql
+├── util
+│   └── util.go
+└── wait-for.sh
+```
 
 - `common`：中间件、数据库初始化
 - `config`： 读取配置
@@ -41,19 +134,22 @@ docker-compose up
 - `redis.conf`：redis配置文件
 - `main.go`：服务入口
 
-### 整体架构
+## 开发整体设计
+
+### 整体架构图
 
 ![结构图](https://github.com/jhzol/test/blob/master/image/Tiktoklite.png?raw=true)
 
-### 实现功能
 
-|    功能    |                             说明                             |
-| :--------: | :----------------------------------------------------------: |
-|  基础功能  |      视频feed流、视频投稿，个人信息、用户登录、用户注册      |
-| 扩展功能一 | 视频点赞/取消点赞，点赞列表；用户评论/删除评论，视频评论列表 |
-| 扩展功能二 |            用户关注/取关；用户关注列表、粉丝列表             |
 
-### 相关优化
+
+
+
+### 数据库设计
+
+<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027215516781.png" alt="image-20221027215516781" style="zoom:80%;" />
+
+## 相关优化
 
 - 使用redis作为缓存，通过减少对数据库的访问提升效率
 - 使用redis锁、事务。
@@ -64,25 +160,36 @@ docker-compose up
 - 使用对象存储对视频及封面进行存储，生成对外访问url
 - 使用docker整合所有相关依赖服务，便于用户快速部署服务，使用wait-for确保其他依赖服务启动后再启动后端服务
 
-### 小组分工
+## 性能测试
 
-- 金浩哲：
+通过命令 go tool pprof -http=:6060 "http://localhost:8080/debug/pprof/profile?seconds=120" 生成了两个版本的火焰图，左图为v1.0，右图为v1.2版本，通过对比两张详细火焰图，优化后的相同方法调用时间更短（添加了相应的中间件）
 
-  整体框架、基础功能、扩展功能二、用户信息缓存、jwt鉴权鉴权、docker部署
+## 未来展望
 
+- 分布式
+
+  利用grpc作为分布式框架，etcd或zookeeper作为注册中心，将五个模块分别布置到不同的服务器上，通过RPC远程调用的方式，来调用相关的模块的方法，做到分布式处理与解耦
+
+  ![image-20221027225809359](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027225809359.png)
+
+## 线上地址
+
+- http://112.74.109.70:8080/
+
+## 贡献者
+
+- 金浩哲
 - 张建红
-
-  用户评论列表、评论信息缓存、密码加密、jwt鉴权、扩展功能二、点赞缓存
-
-- 刘航、薛寅珊
-
-  视频点赞、点赞列表
-
+- 刘航
+- 薛寅珊
 - 吴志伟
 
-  用户评论
+*您也可以查阅仓库为该项目做出贡献的开发者*
 
-### 线上地址
+## 版权说明
 
-http://112.74.109.70:8080/
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
 
+## 鸣谢
+
+https://youthcamp.bytedance.com/
