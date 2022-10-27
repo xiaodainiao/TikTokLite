@@ -1,5 +1,5 @@
 # TikTokLite
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027202423203.png" alt="image-20221027202423203" style="zoom: 67%;" />
+<center><img src="https://img-blog.csdnimg.cn/cc03d16ceea3494e8b38ce0f4a5eb0f6.png" alt="image-20221027202423203" width="65%" height="65%"  ></center>
 
 ***
 
@@ -31,7 +31,7 @@ docker-compose up
 
 ## 技术选型
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027224045110.png" alt="image-20221027224045110" style="zoom:80%;" />
+<img src="https://img-blog.csdnimg.cn/0d5cabef362d4f71a5051b44596745c1.png" width="50%" height="50%" >
 
 ## 实现功能
 
@@ -147,7 +147,7 @@ docker-compose up
 
 ### 数据库设计
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027215516781.png" alt="image-20221027215516781" style="zoom:80%;" />
+<img src="https://img-blog.csdnimg.cn/be4524a1a81e4a31a6699ea03c3466f2.png"   >
 
 ## 相关优化
 
