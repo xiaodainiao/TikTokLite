@@ -1,6 +1,8 @@
-# TikTokLite
+<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027202423203.png" alt="image-20221027202423203" style="zoom: 50%;" />
 
-字节跳动青训营极简版抖音项目,前端接口文档[接口文档](https://www.apifox.cn/apidoc/shared-8cc50618-0da6-4d5e-a398-76f3b8f766c5/api-18345145) 
+​                                                              **极简版抖音**
+
+​                                                       [探索本项目相关文档](https://www.apifox.cn/apidoc/shared-8cc50618-0da6-4d5e-a398-76f3b8f766c5/api-18345145) 
 
 ### 启动服务
 
@@ -53,6 +55,8 @@ docker-compose up
 ### 相关优化
 
 - 使用redis作为缓存，通过减少对数据库的访问提升效率
+- 使用redis锁、事务。
+- SQL注入问题
 - 使用jwt进行权限认证，由于未定义错误类型通知客户端权限过期重新登录，故暂未设置jwt过期时间
 - 对数据表建立合理的外键来确保插入数据的准确性，查询时也可提升速度
 - 对用户密码进行加密存储，保护用户账户安全
@@ -63,11 +67,11 @@ docker-compose up
 
 - 金浩哲：
 
-  整体框架、基础功能、扩展功能二、用户信息缓存、jwt鉴权、docker部署
+  整体框架、基础功能、扩展功能二、用户信息缓存、jwt鉴权鉴权、docker部署
 
 - 张建红
 
-  用户评论列表、评论信息缓存、密码加密、jwt鉴权
+  用户评论列表、评论信息缓存、密码加密、jwt鉴权、扩展功能二、点赞缓存
 
 - 刘航、薛寅珊
 
@@ -81,4 +85,3 @@ docker-compose up
 
 http://112.74.109.70:8080/
 
-服务器带宽不大，视频播放上传有点卡= =
