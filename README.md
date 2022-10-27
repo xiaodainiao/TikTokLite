@@ -1,4 +1,8 @@
+
 # TikTokLite
+<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221027202423203.png" alt="image-20221027202423203" style="zoom: 50%;" />
+
+​                                                 **极简版抖音**
 
 字节跳动青训营极简版抖音项目,前端接口文档[接口文档](https://www.apifox.cn/apidoc/shared-8cc50618-0da6-4d5e-a398-76f3b8f766c5/api-18345145) 
 
