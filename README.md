@@ -178,8 +178,8 @@ docker-compose up
 
 通过命令 go tool pprof -http=:6060 "http://localhost:8080/debug/pprof/profile?seconds=120" 生成了两个版本的火焰图，左图为v1.0，右图为v1.2版本，通过对比两张详细火焰图，优化后的相同方法调用时间更短（添加了相应的中间件）
 
-<img src="https://img-blog.csdnimg.cn/51fba6bd3cac43a4b4591a093f32a73f.png"   >
-<img src="https://img-blog.csdnimg.cn/5c0a9e2f47544d7b9af7bba073de60d1.png"   >
+<img src="https://img-blog.csdnimg.cn/51fba6bd3cac43a4b4591a093f32a73f.png" width="65%" height="65%"  >
+<img src="https://img-blog.csdnimg.cn/5c0a9e2f47544d7b9af7bba073de60d1.png" width="65%" height="65%"  >
 
 ## 未来展望
 
