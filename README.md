@@ -140,13 +140,13 @@ docker-compose up
 
 ### 整体架构图
 
-![结构图](https://github.com/jhzol/test/blob/master/image/Tiktoklite.png?raw=true)
+![结构图](https://github.com/jhzol/test/blob/master/image/Tiktoklite.png?raw=true )
 
 
 
 ### 数据库设计
 
-<img src="https://img-blog.csdnimg.cn/be4524a1a81e4a31a6699ea03c3466f2.png"   >
+<img src="https://img-blog.csdnimg.cn/be4524a1a81e4a31a6699ea03c3466f2.png" width="65%" height="65%"  >
 
 ## 优化
 
@@ -187,7 +187,7 @@ docker-compose up
 
   利用grpc作为分布式框架，etcd或zookeeper作为注册中心，将五个模块分别布置到不同的服务器上，通过RPC远程调用的方式，来调用相关的模块的方法，做到分布式处理与解耦
 
-<img src="https://img-blog.csdnimg.cn/f8e7445378f04f8ba77772a774c2afc0.png"   >
+<img src="https://img-blog.csdnimg.cn/f8e7445378f04f8ba77772a774c2afc0.png"  width="65%" height="65%" >
 
 ## 线上地址
 
