@@ -140,7 +140,7 @@ docker-compose up
 
 ### 整体架构图
 
-![结构图](https://github.com/jhzol/test/blob/master/image/Tiktoklite.png?raw=true )
+<img src="https://img-blog.csdnimg.cn/cc6070c6e54a40dc95ea9b34cd855aa8.png"  width="65%" height="65%"  >
 
 
 
