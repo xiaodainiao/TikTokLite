@@ -204,4 +204,4 @@ docker-compose up
 
 ## 鸣谢
 
-https://youthcamp.bytedance.com/
+[字节跳动青训营](https://youthcamp.bytedance.com/)
