@@ -1,4 +1,6 @@
 <div align=center><img src="https://img-blog.csdnimg.cn/f56709e579474f4ba755541c6a29e920.jpeg"  width="60%" height="30%"  ></div>
+
+
 <p align = 'center'>
 <a href="https://github.com/xiaodainiao"><img src="https://img.shields.io/badge/GitHub-xiaodainiao-blueviolet?logo=github">
 </a>
@@ -12,8 +14,11 @@
 </a>  
 </p>
 
-**博客与网站**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2876fe1607be4723a1c262f02afd8555.png)
+
+
+**个人简介**
+- 学生一枚，热爱编程，从0学c++，自己深有体会，目前学过c++,go,python,数据库,分布式等。个人热爱开源，希望自己学的知识可以和大家共享，并且一起不断进步。
+- 后续打算学分布式框架，以及相关的技术。一些文章也会同步到博客，如果有需要的小伙伴，可以去博客自取。
 # TikTokLite
 
 <div align=center><img src="https://img-blog.csdnimg.cn/cc03d16ceea3494e8b38ce0f4a5eb0f6.png" alt="image-20221027202423203" width="65%" height="65%"  ></div>
