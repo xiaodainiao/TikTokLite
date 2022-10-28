@@ -20,8 +20,8 @@
 - 学生一枚，热爱编程，从0学c++，自己深有体会，目前学过c++,go,python,数据库,分布式等。个人热爱开源，希望自己学的知识可以和大家共享，并且一起不断进步。
 - 后续打算学分布式框架，以及相关的技术。一些文章也会同步到博客，如果有需要的小伙伴，可以去博客自取。
 
-个人博客和网站
-<div align=center><img src="https://img-blog.csdnimg.cn/2876fe1607be4723a1c262f02afd8555.png"  width="80%" height="80%"  ></div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**个人博客和网站**
+<div align=center><img src="https://img-blog.csdnimg.cn/2876fe1607be4723a1c262f02afd8555.png"   ></div>
 
 
 # TikTokLite
