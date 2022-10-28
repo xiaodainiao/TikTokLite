@@ -1,3 +1,19 @@
+<div align=center><img src="https://img-blog.csdnimg.cn/f56709e579474f4ba755541c6a29e920.jpeg"  width="60%" height="30%"  ></div>
+<p align = 'center'>
+<a href="https://github.com/xiaodainiao"><img src="https://img.shields.io/badge/GitHub-xiaodainiao-blueviolet?logo=github">
+</a>
+ <a href="https://blog.csdn.net/weixin_45043334?spm=1010.2135.3001.5343"><img src="https://img.shields.io/badge/博客-小呆鸟_coding-orange?logo=blogger">
+</a>
+<a href="http://www.xiaodainiao.xyz/"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-www.xiaodainiao.xyz-blue?logo=googlehome">
+  </a>
+<a href=""><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E5%B0%8F%E5%91%86%E9%B8%9F%E5%93%87-critical?logo=wechat">
+</a>
+<a href="https://www.zhihu.com/people/axiao-hong-jia-meng-200"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E5%B0%8F%E5%91%86%E9%B8%9F-ff69b4?logo=zhihu">
+</a>  
+</p>
+
+**博客与网站**
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2876fe1607be4723a1c262f02afd8555.png)
 # TikTokLite
 
 <div align=center><img src="https://img-blog.csdnimg.cn/cc03d16ceea3494e8b38ce0f4a5eb0f6.png" alt="image-20221027202423203" width="65%" height="65%"  ></div>
@@ -10,6 +26,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[探索本项目相关文档](https://www.apifox.cn/apidoc/shared-8cc50618-0da6-4d5e-a398-76f3b8f766c5/api-18345145)
 
 ## 目录
+
 
 
 ## 上手指南
