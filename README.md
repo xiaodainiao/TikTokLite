@@ -4,7 +4,7 @@
 
 
 
-<div align=center>**极简抖音** </div>
+<div align=center>极简抖音 </div>
 
 
 [探索本项目相关文档](https://www.apifox.cn/apidoc/shared-8cc50618-0da6-4d5e-a398-76f3b8f766c5/api-18345145)
